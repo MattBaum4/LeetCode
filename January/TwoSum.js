@@ -46,11 +46,16 @@ var twoSum = function(nums, target) {
     }
 };
 
-// I also like the use of a nested for loop in this other example, creating another variable to check.
+// I also like the use of a nested for loop in this other example, creating another variable to check without using methods.
 var twoSum = function(nums, target) {
     for(let i=0; i < nums.length; i++){
         for(let j=i+1; j < nums.length;j++){
+            //here this person was able to complete what I had initally thought but struggled to articulate into code.
+            //Using J and I as two variables to check if they added to the target then returning both I and J.
             if(nums[i] + nums[j] === target) return [i, j]
+        
         }
+
     }
 };
+

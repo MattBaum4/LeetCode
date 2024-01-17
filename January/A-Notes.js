@@ -1,6 +1,6 @@
 /* NEED TO LEARN
-Object.entries - what does it mean and how does it work
 Product of Arrays Except Self - detailed walkthrough
+O(n) time? what it is and what it does and how
 */
 
 //! Object.entries notes

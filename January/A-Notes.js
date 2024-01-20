@@ -11,9 +11,9 @@ In JavaScript, the Object.entries() method is used to return an array of a given
 */
 //! example
 //const obj = { a: 1, b: 2, c: 3 };
-const entries = Object.entries(obj);
+//const entries = Object.entries(obj);
 
-console.log(entries);
+//console.log(entries);
 // Output: [ ['a', 1], ['b', 2], ['c', 3] ]
 
 //----------------------------------------------------------------------------------------
@@ -39,10 +39,11 @@ console.log(mySet)
 //! has() method notes
 
 /* 
-has() simply checks to see if something exists!!!
+has() simply checks to see if something exists within a map!!!
 */
 
 //! example
+let newMap = new Map();
 
 let names = ["matt", "matthew","rob", "robert"]
 
@@ -50,3 +51,14 @@ console.log(names.has("daniel")) //output false
 console.log(names.has("matt")) //output true
 
 //-----------------------------------------------------------------------------------------
+
+//! .split('').reverse().join('')
+/* 
+this splits the characters up, reverses them, then joins them again
+ */
+
+const nameExample = "frank";
+
+let backwardName = nameExample.split('').reverse().join('');
+
+console.log(backwardName) //returns knarf
